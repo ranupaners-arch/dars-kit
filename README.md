@@ -35,7 +35,7 @@ sehingga bisa dipakai di Claude Code dan tool lain yang mendukung standar terseb
 ### Claude Code (personal, berlaku di semua proyek)
 
 ```bash
-git clone https://github.com/<username>/dars-kit.git \
+git clone https://github.com/ranupaners-arch/dars-kit.git \
   ~/.claude/skills/dars-kit
 ```
 
