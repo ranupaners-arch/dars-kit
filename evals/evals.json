@@ -1,0 +1,42 @@
+[
+  {
+    "skills": ["dars-kit"],
+    "query": "Buatkan materi bahasa Arab tema السوق untuk kelas 7 MTs, 2 x 40 menit.",
+    "files": [],
+    "expected_behavior": [
+      "States assumed defaults (level pemula, Indonesian explanation) without asking more than one round of questions",
+      "All Arabic in vocabulary, dialogue, examples and exercises is fully vocalized, including i'rab and tanwin",
+      "Every noun shows singular, plural and gender; every verb shows past, present and masdar",
+      "Dialogue speakers are the same gender and pronouns/verb forms agree with them",
+      "Exercises cover at least two of the four maharat and include a rubric for any speaking or writing task",
+      "Answer key is a separate section and matches the items one-to-one",
+      "Teacher-note timing adds up to exactly 80 minutes",
+      "No Persian letters (ی ک), tatweel or presentation forms; scripts/check_arabic.py reports 0 errors"
+    ]
+  },
+  {
+    "skills": ["dars-kit"],
+    "query": "Tolong buatkan 10 soal pilihan ganda mufradat tema المهنة untuk pemula, lengkap dengan kuncinya.",
+    "files": [],
+    "expected_behavior": [
+      "Uses exercises-only mode and states which vocabulary the items assume",
+      "Each item has 3 options with plausible, homogeneous distractors from the same theme or a single targeted feature",
+      "The position of the correct option varies across items; no 'all/none of the above'",
+      "Each item has exactly one correct answer and the key lists answers in the same numbering",
+      "Arabic is fully vocalized; uncertain plurals or masdars are flagged with ⚠️"
+    ]
+  },
+  {
+    "skills": ["dars-kit"],
+    "query": "Make a slide outline to teach detached pronouns (الضمائر المنفصلة) to intermediate adult learners. Explanations in English, one 60-minute session.",
+    "files": [],
+    "expected_behavior": [
+      "Uses the slide block format with separate RTL Arabic box and LTR translation box",
+      "Speaker notes are written in English",
+      "No slide has more than 6 lines of Arabic; one idea per slide",
+      "Student slides contain no answers; the key is in a separate teacher-only block",
+      "Harakat follow the intermediate rule (full harakat) and pronoun forms are correct for gender and number",
+      "Recommends an OFL Arabic font (e.g. Amiri, Noto Naskh Arabic, Scheherazade New) and RTL paragraph direction"
+    ]
+  }
+]
